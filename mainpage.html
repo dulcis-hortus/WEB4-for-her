@@ -5,24 +5,44 @@
     <title>조아라 패러디 작품 추천</title>
     <style>
       /* @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css); */
-      ul > li > a {
+      ul  a {
         text-decoration: none;
         color: black;
-        font-size: 20px;
+        font-size: 22px;
+        /* background-color: blue; */
+        display: block;
+        padding-bottom: 7px;
+        font-weight: bold;
       }
 
       ul {
         list-style-type: square;
-      }
+        margin: 40px auto;
+        border: 1px dashed black;
+        /* border-style: dashed; */
 
-      h1 > a {
+      }
+      li {
+        font-size: 20px;
+      }
+      h1  span  a {
         text-decoration: none;
         color: black;
         font-size: 45px;
         /* font-family: 'Jeju Gothic', sans-serif; */
       }
       h1 {
+        margin: 0;
         text-align: center;
+        /* border-bottom: 3px solid brown; */
+        padding: 30px 25px;
+        background-color: brown;
+
+      }
+      span {
+        background-color: white;
+        padding: 43px 50px 32px 50px;
+        border: dashed 1px black; box-sizing:border-box;
       }
       .grid {
         display: grid;
@@ -30,15 +50,22 @@
         /* grid-template-areas:
         "list list list contents" */
       }
+      .list {
+        padding-right: 25px;
+        border-right: 3px solid brown;
+
+      }
+
+
     </style>
   </head>
   <body>
-    <h1><a href="mainpage.html">어느 작품 모음집</a></h1>
+    <h1><span><a href="mainpage.html">어느 작품 모음집</a></span></h1>
     <div class= "grid">
       <div class= "list">
         <ul>
           <li><a href="wind.html">바람과 비의 계절</a></li>
-          <li><a href="sord.html">검사님이 미쳐 날뛰고 있습니다</a></li>
+          <li><a href="sord.html">검사님이 미쳐<br>날뛰고 있습니다</a></li>
           <li><a href="hero.html" >이슈발의 영웅</a></li>
         </ul>
       </div>
