@@ -3,81 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>조아라 패러디 작품 추천</title>
-    <style>
-      /* @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css); */
-      ul  a {
-        text-decoration: none;
-        color: black;
-        font-size: 22px;
-        /* background-color: blue; */
-        display: block;
-        padding-bottom: 7px;
-        font-weight: bold;
-      }
-
-      ul {
-        list-style-type: square;
-        margin: 40px auto;
-        border: 1px dashed black;
-        /* border-style: dashed; */
-
-      }
-      li {
-        font-size: 20px;
-      }
-      h1  span  a {
-        text-decoration: none;
-        color: black;
-        font-size: 45px;
-        /* font-family: 'Jeju Gothic', sans-serif; */
-      }
-      h1 {
-        margin: 0;
-        text-align: center;
-        /* border-bottom: 3px solid brown; */
-        padding: 30px 25px;
-        background-color: brown;
-
-      }
-      span {
-        background-color: white;
-        padding: 43px 50px 32px 50px;
-        border: dashed 1px black; box-sizing:border-box;
-      }
-      .grid {
-        display: grid;
-        grid-template-columns: 250px 900px;
-        /* grid-template-areas:
-        "list list list contents" */
-      }
-      .list {
-        padding-right: 25px;
-        border-right: 3px solid brown;
-
-      }
-
-
-    </style>
+    <link rel="stylesheet" href="mainpage.css">
   </head>
   <body>
     <h1><span><a href="mainpage.html">어느 작품 모음집</a></span></h1>
     <div class= "grid">
       <div class= "list">
-        <ul>
+        <ul id= "index">
           <li><a href="wind.html">바람과 비의 계절</a></li>
           <li><a href="sord.html">검사님이 미쳐<br>날뛰고 있습니다</a></li>
           <li><a href="hero.html" >이슈발의 영웅</a></li>
         </ul>
       </div>
       <div class= "contents">
-        <h3 class= "p_title">시작하기에 앞서</h3>
-        <p>
-          이곳에 온 걸 환영합니다, 낯선 이여. 이제부터 소개할 패러디 소설들은 당신이 알고 있던 만화를
-          뒤집고 재해석하며 때로는 주인공마저 악인으로 만들 것입니다. 불편하다면 나가셔도 좋습니다.
-          그러나 매번 비슷하게 전개되는 패러디물에 질려버렸다면 읽어보시길 추천합니다.
-          소설을 끝까지 읽었을 때 당신은 광팬이 되어 있을지도 모릅니다.
-        </p>
-        <img src="fire.jpg" width="900px">
+        <section class= "text1">
+          <h3 class= "p_title"><시작하기에 앞서></h3>
+          <p>
+            이곳에 온 걸 환영합니다, 낯선 이여. 이제부터 소개할 패러디 소설들은 당신이 알고 있던 만화를
+            뒤집고 재해석하며 때로는 주인공마저 악인으로 만들 것입니다. 불편하다면 나가셔도 좋습니다.
+            그러나 매번 비슷하게 전개되는 패러디물에 질려버렸다면 읽어보시길 추천합니다.
+            소설을 끝까지 읽었을 때 당신은 광팬이 되어 있을지도 모릅니다.
+          </p>
+        </section>
+        <img id="mainimg" src="fire.jpg">
+        <!-- 마우스를 올리면 사진이 바뀌는 효과 js로 작업할 것 -->
+      </div>
+      <div class="right_block">
       </div>
     </div>
   </body>
