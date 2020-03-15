@@ -29,7 +29,7 @@ h1 {
   margin: 0;
   text-align: center;
   /* border-bottom: 3px solid brown; */
-  padding: 30px 100px;
+  padding: 30px 300px;
   background-color: brown;
 
 }
@@ -69,6 +69,8 @@ span {
 }
 .text1 {
   width: 870px;
+  border: dashed 1px #ccc;
+  padding: 0px 15px;
 }
 #mainimg {
   width: 870px;

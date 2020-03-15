@@ -62,10 +62,11 @@ h1 {
   grid-template-columns: 230px auto;
   grid-column-gap: 30px;
   margin-bottom: 70px;
+  border: dashed 3px brown;
 }
 .info {
   font-size: 17px;
-  margin-top: 50px;
+  margin-top: 35px;
   margin-bottom: 0;
 }
 .info p {
@@ -75,6 +76,8 @@ h1 {
 }
 .recommendation , .comments {
   margin: 50px 0px;
+  border: dashed 1px #ccc;
+  padding: 10px 15px;
 }
 /* .recommendation p {
   width: 1155px;
