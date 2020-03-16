@@ -1,0 +1,55 @@
+/* 모든 페이지에 공통으로 적용되는 css 코드 */
+
+#index  a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  display: block;
+  padding-bottom: 7px;
+  font-weight: bold;
+}
+
+#index {
+  list-style-type: square;
+  margin: 50px auto;
+  border: 1px dashed black;
+  font-size: 20px;
+}
+
+h1  span  a {
+  text-decoration: none;
+  color: black;
+  font-size: 45px;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  padding: 30px 300px;
+  background-color: brown;
+
+}
+
+span {
+  background-color: white;
+  padding: 43px 50px 32px 50px;
+  border: dashed 1px black; box-sizing:border-box;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 300px auto 300px;
+  /* position: relative;
+  left: 0px;
+  top: 0px; */
+
+
+  /* grid-template-areas:
+  "list list list contents" */
+}
+
+.list {
+  padding-right: 35px;
+  padding-left: 15px;
+  border-right: 7px double brown;
+}
