@@ -12,7 +12,24 @@
         $(this).attr('src', 'night.jpg');
       });
     </script> -->
-  </head>
+
+
+    <script>
+    function OnmouseE(self) {
+      self.src = 'night.jpg'
+    }
+
+    // function OnmouseE(self) {
+    //   if (self.src === 'fire.jpg') {
+    //     self.src = "night.jpg";
+    //   } else {
+    //     self.src = "fire.jpg";
+    //   }
+    // }
+
+    </script>
+
+</head>
   <body>
     <h1><span><a href="mainpage.html">어느 작품 모음집</a></span></h1>
     <div class= "grid">
@@ -33,7 +50,7 @@
             소설을 끝까지 읽었을 때 당신은 광팬이 되어 있을지도 모릅니다.
           </p>
         </section>
-        <img id="mainimg" src="fire.jpg">
+        <img id="mainimg" onmouseover="OnmouseE(this)" border="0" src="fire.jpg">
         <!-- 마우스를 올리면 사진이 바뀌는 효과 js로 작업할 것 -->
       </div>
       <div class="right_block">
